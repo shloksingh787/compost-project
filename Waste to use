@@ -1,0 +1,11 @@
+# अगर git init नहीं किया है तो
+git init
+git remote add origin https://github.com/YOUR_USERNAME/compost-project.git
+
+# सब फाइलें add करो
+git add .
+git commit -m "Initial Compost Project website"
+
+# GitHub पर push करो
+git branch -M main
+git push -u origin main
